@@ -1,0 +1,437 @@
+Enter one of the following choices: 0.Hyperparameter_Tuning, 1.Train, 2.Test, 3.Evaluate: 3
+  
+For evaluation of next activity and timestamp enter 1:  1
+  
+Enter the next_step file name of the format:Results/next_activity_time_filename.csv' : Model/best_gridsearch_bpi_3_no_ohe_fix/1hotnext_activity_and_time_best_gridsearch_bpi_3_no_ohe_fixbpi_12_w.csv
+  
+   CaseID  Prefix length Groud truth Predicted  Confidence  ...  Jaccard  Ground truth times  Predicted times  RMSE            MAE
+0  200865              2          Â¦        Â¤        51.0  ...      0.0              610546      4230.565708   NaN  606315.434292
+1  200871              2          Â¦        Â¤        80.0  ...      0.0                  96      8099.591877   NaN    8003.591877
+2  200874              2          Â¤        Â¤        61.0  ...      1.0              157873      7783.471736   NaN  150089.528264
+3  200877              2          Â¤        Â¤        52.0  ...      1.0                  25      6090.883695   NaN    6065.883695
+4  200880              2          Â¤        Â¤        81.0  ...      1.0               17456      8088.721525   NaN    9367.278475
+
+[5 rows x 12 columns]
+For time evaluations Enter 1, For activity related evaluations enter 2, Enter 3 for both: 3
+
+Prefix_Length 2
+Number of Cases= 2269
+Average Error= 1.6015856392477579 Days
+
+Prefix_Length 3
+Number of Cases= 2051
+Average Error= 1.8058544381847366 Days
+
+Prefix_Length 4
+Number of Cases= 1825
+Average Error= 1.8629823192726578 Days
+
+Prefix_Length 5
+Number of Cases= 1629
+Average Error= 1.7083675701581804 Days
+
+Prefix_Length 6
+Number of Cases= 1434
+Average Error= 1.66515933495174 Days
+
+Prefix_Length 7
+Number of Cases= 1247
+Average Error= 1.674696687060683 Days
+
+Prefix_Length 8
+Number of Cases= 1079
+Average Error= 1.4088117381707337 Days
+
+Prefix_Length 9
+Number of Cases= 920
+Average Error= 1.6295571112068976 Days
+
+Prefix_Length 10
+Number of Cases= 786
+Average Error= 1.4625745977746354 Days
+
+Prefix_Length 11
+Number of Cases= 659
+Average Error= 1.6502402276154722 Days
+
+Prefix_Length 12
+Number of Cases= 556
+Average Error= 1.4378571277867203 Days
+
+Prefix_Length 13
+Number of Cases= 457
+Average Error= 1.088878555727775 Days
+
+Prefix_Length 14
+Number of Cases= 386
+Average Error= 1.220921580873353 Days
+
+Prefix_Length 15
+Number of Cases= 327
+Average Error= 1.1455336186312712 Days
+
+Prefix_Length 16
+Number of Cases= 272
+Average Error= 1.090565894739876 Days
+
+Prefix_Length 17
+Number of Cases= 244
+Average Error= 0.8760626348762044 Days
+
+Prefix_Length 18
+Number of Cases= 201
+Average Error= 0.9881884984163569 Days
+
+Prefix_Length 19
+Number of Cases= 161
+Average Error= 1.0067802646180022 Days
+
+Prefix_Length 20
+Number of Cases= 138
+Average Error= 0.9892858868861825 Days
+
+Prefix_Length 21
+Number of Cases= 123
+Average Error= 0.9157162772181122 Days
+
+Prefix_Length 22
+Number of Cases= 95
+Average Error= 0.757529059929058 Days
+
+Prefix_Length 23
+Number of Cases= 80
+Average Error= 0.9580235140367661 Days
+
+Prefix_Length 24
+Number of Cases= 71
+Average Error= 0.8050607548049108 Days
+
+Prefix_Length 25
+Number of Cases= 61
+Average Error= 0.936837479791378 Days
+
+Prefix_Length 26
+Number of Cases= 46
+Average Error= 0.6043215680512782 Days
+
+Prefix_Length 27
+Number of Cases= 39
+Average Error= 0.3756922022218983 Days
+
+Prefix_Length 28
+Number of Cases= 36
+Average Error= 0.6188437970173104 Days
+
+Prefix_Length 29
+Number of Cases= 31
+Average Error= 0.4442096483410114 Days
+
+Prefix_Length 30
+Number of Cases= 25
+Average Error= 0.24485121317929426 Days
+
+Prefix_Length 31
+Number of Cases= 23
+Average Error= 0.6658116167215598 Days
+
+Prefix_Length 32
+Number of Cases= 19
+Average Error= 0.6906107381753263 Days
+
+Prefix_Length 33
+Number of Cases= 18
+Average Error= 1.9692141898868694 Days
+
+Prefix_Length 34
+Number of Cases= 18
+Average Error= 0.4867386727147698 Days
+
+Prefix_Length 35
+Number of Cases= 17
+Average Error= 0.2247204384341315 Days
+
+Prefix_Length 36
+Number of Cases= 15
+Average Error= 1.3454483932661236 Days
+
+Prefix_Length 37
+Number of Cases= 12
+Average Error= 1.6737642521769551 Days
+
+Prefix_Length 38
+Number of Cases= 12
+Average Error= 0.6864491722781906 Days
+
+Prefix_Length 39
+Number of Cases= 11
+Average Error= 0.6378967819733741 Days
+
+Prefix_Length 40
+Number of Cases= 9
+Average Error= 0.5040149431830561 Days
+
+Prefix_Length 41
+Number of Cases= 6
+Average Error= 1.363364375141142 Days
+
+Prefix_Length 42
+Number of Cases= 5
+Average Error= 0.22331156856299503 Days
+
+Prefix_Length 43
+Number of Cases= 5
+Average Error= 0.31828138416505886 Days
+
+Prefix_Length 44
+Number of Cases= 3
+Average Error= 0.15887311067303816 Days
+
+Prefix_Length 45
+Number of Cases= 3
+Average Error= 0.17359332798566887 Days
+
+Prefix_Length 46
+Number of Cases= 3
+Average Error= 0.15536060615902983 Days
+
+Prefix_Length 47
+Number of Cases= 2
+Average Error= 0.21151919626843838 Days
+
+Prefix_Length 48
+Number of Cases= 2
+Average Error= 1.5645740185222 Days
+
+Prefix_Length 49
+Number of Cases= 2
+Average Error= 0.16517036148122377 Days
+
+Prefix_Length 50
+Number of Cases= 2
+Average Error= 0.7793075027318873 Days
+
+Prefix_Length 51
+Number of Cases= 2
+Average Error= 0.06420889294219838 Days
+
+Prefix_Length 52
+Number of Cases= 1
+Average Error= 0.03731326149661219 Days
+
+Prefix_Length 53
+Number of Cases= 1
+Average Error= 0.09235768819541848 Days
+
+Overall Average Error in Days 0.9070556487293371
+Overall Weighted Average Erorr in Days 1.5493180940746891
+
+Prefix_Length 2
+Number of Cases= 2269
+Accuracy= 73.42441604230939 %
+
+Prefix_Length 3
+Number of Cases= 2051
+Accuracy= 76.25548512920527 %
+
+Prefix_Length 4
+Number of Cases= 1825
+Accuracy= 76.76712328767124 %
+
+Prefix_Length 5
+Number of Cases= 1629
+Accuracy= 73.78759975445058 %
+
+Prefix_Length 6
+Number of Cases= 1434
+Accuracy= 74.05857740585773 %
+
+Prefix_Length 7
+Number of Cases= 1247
+Accuracy= 71.85244587008822 %
+
+Prefix_Length 8
+Number of Cases= 1079
+Accuracy= 67.93327154772938 %
+
+Prefix_Length 9
+Number of Cases= 920
+Accuracy= 67.17391304347827 %
+
+Prefix_Length 10
+Number of Cases= 786
+Accuracy= 67.17557251908397 %
+
+Prefix_Length 11
+Number of Cases= 659
+Accuracy= 65.55386949924127 %
+
+Prefix_Length 12
+Number of Cases= 556
+Accuracy= 62.76978417266187 %
+
+Prefix_Length 13
+Number of Cases= 457
+Accuracy= 60.83150984682714 %
+
+Prefix_Length 14
+Number of Cases= 386
+Accuracy= 58.80829015544041 %
+
+Prefix_Length 15
+Number of Cases= 327
+Accuracy= 55.35168195718655 %
+
+Prefix_Length 16
+Number of Cases= 272
+Accuracy= 52.20588235294118 %
+
+Prefix_Length 17
+Number of Cases= 244
+Accuracy= 45.90163934426229 %
+
+Prefix_Length 18
+Number of Cases= 201
+Accuracy= 46.26865671641791 %
+
+Prefix_Length 19
+Number of Cases= 161
+Accuracy= 44.099378881987576 %
+
+Prefix_Length 20
+Number of Cases= 138
+Accuracy= 44.927536231884055 %
+
+Prefix_Length 21
+Number of Cases= 123
+Accuracy= 39.83739837398374 %
+
+Prefix_Length 22
+Number of Cases= 95
+Accuracy= 38.94736842105263 %
+
+Prefix_Length 23
+Number of Cases= 80
+Accuracy= 40.0 %
+
+Prefix_Length 24
+Number of Cases= 71
+Accuracy= 38.028169014084504 %
+
+Prefix_Length 25
+Number of Cases= 61
+Accuracy= 32.78688524590164 %
+
+Prefix_Length 26
+Number of Cases= 46
+Accuracy= 34.78260869565217 %
+
+Prefix_Length 27
+Number of Cases= 39
+Accuracy= 46.15384615384615 %
+
+Prefix_Length 28
+Number of Cases= 36
+Accuracy= 38.88888888888889 %
+
+Prefix_Length 29
+Number of Cases= 31
+Accuracy= 35.483870967741936 %
+
+Prefix_Length 30
+Number of Cases= 25
+Accuracy= 32.0 %
+
+Prefix_Length 31
+Number of Cases= 23
+Accuracy= 30.434782608695656 %
+
+Prefix_Length 32
+Number of Cases= 19
+Accuracy= 36.84210526315789 %
+
+Prefix_Length 33
+Number of Cases= 18
+Accuracy= 27.77777777777778 %
+
+Prefix_Length 34
+Number of Cases= 18
+Accuracy= 27.77777777777778 %
+
+Prefix_Length 35
+Number of Cases= 17
+Accuracy= 35.294117647058826 %
+
+Prefix_Length 36
+Number of Cases= 15
+Accuracy= 33.33333333333333 %
+
+Prefix_Length 37
+Number of Cases= 12
+Accuracy= 33.33333333333333 %
+
+Prefix_Length 38
+Number of Cases= 12
+Accuracy= 16.666666666666664 %
+
+Prefix_Length 39
+Number of Cases= 11
+Accuracy= 18.181818181818183 %
+
+Prefix_Length 40
+Number of Cases= 9
+Accuracy= 11.11111111111111 %
+
+Prefix_Length 41
+Number of Cases= 6
+Accuracy= 0.0 %
+
+Prefix_Length 42
+Number of Cases= 5
+Accuracy= 0.0 %
+
+Prefix_Length 43
+Number of Cases= 5
+Accuracy= 20.0 %
+
+Prefix_Length 44
+Number of Cases= 3
+Accuracy= 0.0 %
+
+Prefix_Length 45
+Number of Cases= 3
+Accuracy= 0.0 %
+
+Prefix_Length 46
+Number of Cases= 3
+Accuracy= 0.0 %
+
+Prefix_Length 47
+Number of Cases= 2
+Accuracy= 0.0 %
+
+Prefix_Length 48
+Number of Cases= 2
+Accuracy= 0.0 %
+
+Prefix_Length 49
+Number of Cases= 2
+Accuracy= 0.0 %
+
+Prefix_Length 50
+Number of Cases= 2
+Accuracy= 0.0 %
+
+Prefix_Length 51
+Number of Cases= 2
+Accuracy= 0.0 %
+
+Prefix_Length 52
+Number of Cases= 1
+Accuracy= 0.0 %
+
+Prefix_Length 53
+Number of Cases= 1
+Accuracy= 0.0 %
+
+Overall Accuracy 35.63093256193474
+Overall Weighted Accuracy 68.20345203280004

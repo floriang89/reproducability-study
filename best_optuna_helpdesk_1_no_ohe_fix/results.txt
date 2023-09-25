@@ -1,0 +1,95 @@
+   CaseID  Prefix length Groud truth Predicted  Confidence  ...  Jaccard  Ground truth times  Predicted times  RMSE            MAE
+0    3087              2          Â§        Â§        75.0  ...      1.0              256462     79531.193180   NaN  176930.806820
+1    3088              2          Â©        Â©        87.0  ...      1.0                  14     33100.518765   NaN   33086.518765
+2    3089              2          Âª        Â§        70.0  ...      0.0              355698     55621.730706   NaN  300076.269294
+3    3090              2          Â§        Â§        74.0  ...      1.0                1800     35447.280433   NaN   33647.280433
+4    3091              2          Â§        Â§        77.0  ...      1.0              511775     15059.168901   NaN  496715.831099
+
+[5 rows x 12 columns]
+For time evaluations Enter 1, For activity related evaluations enter 2, Enter 3 for both: 3
+
+Prefix_Length 2
+Number of Cases= 1200
+Average Error= 3.3670804455688197 Days
+
+Prefix_Length 3
+Number of Cases= 445
+Average Error= 4.842095632329324 Days
+
+Prefix_Length 4
+Number of Cases= 195
+Average Error= 2.6878718320212185 Days
+
+Prefix_Length 5
+Number of Cases= 89
+Average Error= 4.034831855528699 Days
+
+Prefix_Length 6
+Number of Cases= 39
+Average Error= 2.3293781312267705 Days
+
+Prefix_Length 7
+Number of Cases= 10
+Average Error= 3.257510294561823 Days
+
+Prefix_Length 8
+Number of Cases= 7
+Average Error= 2.296871232241623 Days
+
+Prefix_Length 9
+Number of Cases= 4
+Average Error= 4.037176073250344 Days
+
+Prefix_Length 10
+Number of Cases= 3
+Average Error= 1.7178292519164244 Days
+
+Prefix_Length 11
+Number of Cases= 1
+Average Error= 1.2673559647141213 Days
+
+Overall Average Error in Days 2.9838000713359163
+Overall Weighted Average Erorr in Days 3.6329817512082
+
+Prefix_Length 2
+Number of Cases= 1200
+Accuracy= 76.75 %
+
+Prefix_Length 3
+Number of Cases= 445
+Accuracy= 57.528089887640455 %
+
+Prefix_Length 4
+Number of Cases= 195
+Accuracy= 65.12820512820512 %
+
+Prefix_Length 5
+Number of Cases= 89
+Accuracy= 67.41573033707866 %
+
+Prefix_Length 6
+Number of Cases= 39
+Accuracy= 79.48717948717949 %
+
+Prefix_Length 7
+Number of Cases= 10
+Accuracy= 60.0 %
+
+Prefix_Length 8
+Number of Cases= 7
+Accuracy= 57.14285714285714 %
+
+Prefix_Length 9
+Number of Cases= 4
+Accuracy= 50.0 %
+
+Prefix_Length 10
+Number of Cases= 3
+Accuracy= 100.0 %
+
+Prefix_Length 11
+Number of Cases= 1
+Accuracy= 100.0 %
+
+Overall Accuracy 71.3452061982961
+Overall Weighted Accuracy 70.79779227295535

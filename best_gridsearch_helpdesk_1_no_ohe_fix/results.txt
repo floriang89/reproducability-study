@@ -1,0 +1,99 @@
+Enter one of the following choices: 0.Hyperparameter_Tuning, 1.Train, 2.Test, 3.Evaluate: 3
+  
+For evaluation of next activity and timestamp enter 1:  1
+  
+Enter the next_step file name of the format:Results/next_activity_time_filename.csv' : Model/best_gridsearch_helpdesk_1_no_ohe_fix/1hotnext_activity_and_time_best_gridsearch_helpdesk_1_no_ohe_fixhelpdesk.csv
+  
+   CaseID  Prefix length Groud truth Predicted  Confidence  Levenshtein  Damerau  Jaccard  Ground truth times  Predicted times  RMSE            MAE
+0    3087              2          Â§        Â§        73.0          1.0      1.0      1.0              256462     85714.494843   NaN  170747.505157
+1    3088              2          Â©        Â©        86.0          1.0      1.0      1.0                  14      9956.763932   NaN    9942.763932
+2    3089              2          Âª        Â§        74.0          0.0      0.0      0.0              355698     64403.199787   NaN  291294.800213
+3    3090              2          Â§        Â§        75.0          1.0      1.0      1.0                1800     35520.641682   NaN   33720.641682
+4    3091              2          Â§        Â§        79.0          1.0      1.0      1.0              511775     15617.604771   NaN  496157.395229
+For time evaluations Enter 1, For activity related evaluations enter 2, Enter 3 for both: 3
+
+Prefix_Length 2
+Number of Cases= 1200
+Average Error= 3.3560099549878637 Days
+
+Prefix_Length 3
+Number of Cases= 445
+Average Error= 4.870496669999747 Days
+
+Prefix_Length 4
+Number of Cases= 195
+Average Error= 2.656433970598685 Days
+
+Prefix_Length 5
+Number of Cases= 89
+Average Error= 3.9411893110872507 Days
+
+Prefix_Length 6
+Number of Cases= 39
+Average Error= 2.332002068253292 Days
+
+Prefix_Length 7
+Number of Cases= 10
+Average Error= 3.429966510618403 Days
+
+Prefix_Length 8
+Number of Cases= 7
+Average Error= 1.7836035078074535 Days
+
+Prefix_Length 9
+Number of Cases= 4
+Average Error= 3.789989028140551 Days
+
+Prefix_Length 10
+Number of Cases= 3
+Average Error= 1.7687964763468358 Days
+
+Prefix_Length 11
+Number of Cases= 1
+Average Error= 1.274212962962963 Days
+
+Overall Average Error in Days 2.9202700460803044
+Overall Weighted Average Erorr in Days 3.624097825346771
+
+Prefix_Length 2
+Number of Cases= 1200
+Accuracy= 76.75 %
+
+Prefix_Length 3
+Number of Cases= 445
+Accuracy= 57.078651685393254 %
+
+Prefix_Length 4
+Number of Cases= 195
+Accuracy= 66.15384615384615 %
+
+Prefix_Length 5
+Number of Cases= 89
+Accuracy= 68.53932584269663 %
+
+Prefix_Length 6
+Number of Cases= 39
+Accuracy= 76.92307692307693 %
+
+Prefix_Length 7
+Number of Cases= 10
+Accuracy= 60.0 %
+
+Prefix_Length 8
+Number of Cases= 7
+Accuracy= 57.14285714285714 %
+
+Prefix_Length 9
+Number of Cases= 4
+Accuracy= 50.0 %
+
+Prefix_Length 10
+Number of Cases= 3
+Accuracy= 100.0 %
+
+Prefix_Length 11
+Number of Cases= 1
+Accuracy= 100.0 %
+
+Overall Accuracy 71.25877577478701
+Overall Weighted Accuracy 70.79779227295535
