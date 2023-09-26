@@ -1,9 +1,9 @@
 # reproducibility-study
 Original code to train model is from https://github.com/annguy/time-aware-pbpm
 
-Adapted version with bugfixes is in folder `time-aware-pbpm`.
+Adapted version with bugfixes and new `environment.yml` is in folder `time-aware-pbpm`.
 
-## Bugfixes
+## Bugfixes in time-aware-pbpm
 
 ### Hardcoded Dropout Rate in CSModel
 In the class `CSModel` the dropout rate is set three times to 0.2. This was changed to `hparams[HP_DROPOUT]` to be able to changed.
