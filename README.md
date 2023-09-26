@@ -9,7 +9,7 @@ Starting Optuna dashboard with one this command:
 Since the models Tax+T-LSTM and Tax+CS+T-LSTM performed the same, some Optuna studies didn't run 100 trials. 
 
 
-## Folder structure
+## Folder structure models and results
 Each folder contains the used model, the evaluation file, the generated charts for accuracy and MAE are included. 
 
 ### Models
@@ -34,3 +34,7 @@ optuna = Optuna
 
 gridsearch = Grid search
 
+## Folder Structure Grid Search
+In this folder the generated files with the Hyperparameter Tuning option are located. For the model Tax+CS+T-LSTM 
+only partial results exist, due to matching results with model Tax+T-LSTM and very long runtimes. To get the 
+numbers, you need to run the GridSearch.py from the linked repository. 
