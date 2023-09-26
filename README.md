@@ -15,7 +15,7 @@ The path in the `Datahandler` class used backslashes, which are used in Windows.
 In the class `Preprocess` the dictionaries were changed to start with 0. Another change was made to the `y_a` vector. In the class `NextStep` the variable `i` was changed to start at 0 in the function `getSymbol`.
 
 ### Reproducibility
-The model classes have a seed parameter, if no seed is passed the models will behave randomly. The seed of 42 is set in the class `HyperparameterTune` as well as in `main.py`. The environment variables are set in `main.py` and in the class `HyperparameterTune`.
+The model classes have a seed parameter, if no seed is passed the models will behave randomly, except in class `TLSTM_layer`, there the seed is hardcoded at 42. The seed of 42 is set in the class `HyperparameterTune` as well as in `main.py`. The environment variables are set in `main.py` and in the class `HyperparameterTune`.
 
 ## Optuna
 Code to use Optuna is in folder `optuna`. The sqlite databases that contain the Optuna results are also in this folder.
